@@ -11,7 +11,6 @@ public class Bug implements java.io.Serializable {
 	private String note;
 	private Date createdatetime;
 	private Date modifydatetime;
-
 	private Date createdatetimeStart;
 	private Date createdatetimeEnd;
 	private Date modifydatetimeStart;
