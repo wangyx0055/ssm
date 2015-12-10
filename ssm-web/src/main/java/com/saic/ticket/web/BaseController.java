@@ -55,10 +55,4 @@ public class BaseController {
 		return "/" + folder + "/" + jspName;
 	}
 	
-	   @RequestMapping("/sss")
-	    public String sss(@PathVariable String folder, @PathVariable String jspName) {
-	        System.out.println(folder+"/"+jspName);
-	        return "/" + folder + "/" + jspName;
-	    }
-
 }

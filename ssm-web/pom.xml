@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ssm.web</groupId>
-  <artifactId>ssm-web</artifactId>
+  <groupId>com.saic.ticket</groupId>
+  <artifactId>ticket</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ssm-web Maven Webapp</name>
+  <name>ticket Maven Webapp</name>
   <url>http://maven.apache.org</url>
     
     <!-- 加入spring mvc依赖包 -->
@@ -183,7 +183,7 @@
 		
   </dependencies>
 <build>
-		<finalName>ssm-web</finalName>
+		<finalName>ticket</finalName>
 
 		<plugins>
 
