@@ -1,4 +1,4 @@
-package com.ssm.pageModel;
+package com.saic.ticket.pageModel;
 
 /**
  * EasyUI 分页帮助类

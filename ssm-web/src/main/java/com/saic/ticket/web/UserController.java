@@ -1,4 +1,4 @@
-package com.ssm.web;
+package com.saic.ticket.web;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.ssm.pageModel.DataGrid;
-import com.ssm.pageModel.PageHelper;
-import com.ssm.pageModel.User;
+import com.saic.ticket.pageModel.DataGrid;
+import com.saic.ticket.pageModel.PageHelper;
+import com.saic.ticket.pageModel.User;
 
 /**
  * 用户控制器

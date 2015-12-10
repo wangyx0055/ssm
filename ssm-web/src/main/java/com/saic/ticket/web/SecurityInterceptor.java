@@ -1,4 +1,4 @@
-package com.ssm.web;
+package com.saic.ticket.web;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.apache.log4j.Logger;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ssm.pageModel.SessionInfo;
-import com.ssm.util.ConfigUtil;
+import com.saic.ticket.pageModel.SessionInfo;
+import com.saic.ticket.util.ConfigUtil;
 
 
 /**

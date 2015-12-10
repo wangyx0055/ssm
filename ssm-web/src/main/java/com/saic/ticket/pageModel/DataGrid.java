@@ -1,4 +1,4 @@
-package com.ssm.pageModel;
+package com.saic.ticket.pageModel;
 
 import java.util.ArrayList;
 import java.util.List;

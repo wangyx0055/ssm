@@ -1,4 +1,4 @@
-package com.ssm.web;
+package com.saic.ticket.web;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.ssm.util.StringEscapeEditor;
+import com.saic.ticket.util.StringEscapeEditor;
 
 
 /**

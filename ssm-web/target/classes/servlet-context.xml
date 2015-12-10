@@ -15,7 +15,7 @@
 
     <mvc:annotation-driven />
 	<!-- 自动扫描controller包下的所有类，使其认为spring mvc的控制器 -->
-	<context:component-scan base-package="com.ssm.web" />
+	<context:component-scan base-package="com.saic.ticket.web" />
 	
 	<mvc:resources mapping="/style/**" location="/style/" />
 	<mvc:resources mapping="/jslib/**" location="/jslib/" />

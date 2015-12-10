@@ -1,20 +1,22 @@
-package com.ssm.pageModel;
+package com.saic.ticket.pageModel;
 
 import java.util.Date;
 
-public class Bug implements java.io.Serializable {
+public class User implements java.io.Serializable {
 
 	private String id;
-	private String typeId;
-	private String typeName;
 	private String name;
-	private String note;
+	private String pwd;
 	private Date createdatetime;
 	private Date modifydatetime;
+
 	private Date createdatetimeStart;
 	private Date createdatetimeEnd;
 	private Date modifydatetimeStart;
 	private Date modifydatetimeEnd;
+
+	private String roleIds;
+	private String roleNames;
 
 	public Date getCreatedatetimeStart() {
 		return createdatetimeStart;
@@ -48,28 +50,28 @@ public class Bug implements java.io.Serializable {
 		this.modifydatetimeEnd = modifydatetimeEnd;
 	}
 
+	public String getRoleIds() {
+		return roleIds;
+	}
+
+	public void setRoleIds(String roleIds) {
+		this.roleIds = roleIds;
+	}
+
+	public String getRoleNames() {
+		return roleNames;
+	}
+
+	public void setRoleNames(String roleNames) {
+		this.roleNames = roleNames;
+	}
+
 	public String getId() {
 		return id;
 	}
 
 	public void setId(String id) {
 		this.id = id;
-	}
-
-	public String getTypeId() {
-		return typeId;
-	}
-
-	public void setTypeId(String typeId) {
-		this.typeId = typeId;
-	}
-
-	public String getTypeName() {
-		return typeName;
-	}
-
-	public void setTypeName(String typeName) {
-		this.typeName = typeName;
 	}
 
 	public String getName() {
@@ -80,12 +82,12 @@ public class Bug implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public String getNote() {
-		return note;
+	public String getPwd() {
+		return pwd;
 	}
 
-	public void setNote(String note) {
-		this.note = note;
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
 	}
 
 	public Date getCreatedatetime() {

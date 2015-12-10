@@ -1,4 +1,4 @@
-package com.ssm.pageModel;
+package com.saic.ticket.pageModel;
 
 public class ResourceType implements java.io.Serializable {
 
