@@ -3,7 +3,10 @@ package com.saic.ticket.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.saic.ticket.util.AjaxObj;
 
 /**
  * @author pengqiang
@@ -12,7 +15,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/login")
 public class LoginController extends BaseController{
-    
     
     @RequestMapping("/toLogin")
     public ModelAndView toLogin(){
@@ -24,10 +26,12 @@ public class LoginController extends BaseController{
     
     
     @RequestMapping("/loginValidate")
-    public ModelAndView loginValidate(){
+    @ResponseBody
+    public AjaxObj loginValidate(){
         
-        
-        return new ModelAndView("");
+        AjaxObj ajaxObj = new AjaxObj();
+        ajaxObj.setObj(AjaxObj.SUCCESS);
+      return ajaxObj;
         
     }
 
